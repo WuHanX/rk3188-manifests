@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="albuer"
+           fetch="."
+           review="https://github.com/albuer/" />
+  <default revision="master"
+           remote="albuer"
+           sync-j="4" />
+
+  <project path="hardware" name="walle-hardware" revision="rk3188"/>
+  <project path="walle/ubuntu-base" name="walle-ubuntu-base" revision="rk3188"/>
+  
+</manifest>
