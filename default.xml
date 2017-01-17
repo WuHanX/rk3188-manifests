@@ -9,6 +9,6 @@
            sync-j="4" />
 
   <project path="hardware" name="walle-hardware" revision="rk3188"/>
-  <project path="walle/ubuntu-base" name="walle-ubuntu-base" revision="rk3188"/>
+  <project path="firmware/ubuntu-base" name="walle-firmware-ubuntu-base" revision="rk3188"/>
   
 </manifest>
