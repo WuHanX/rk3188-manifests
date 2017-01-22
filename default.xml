@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote  name="albuer"
+  <remote  name="rockchip-linux"
            fetch="."
-           review="https://github.com/albuer/" />
+           review="https://github.com/rockchip-linux/" />
   <default revision="master"
-           remote="albuer"
+           remote="rockchip-linux"
            sync-j="4" />
 
   <project path="hardware" name="walle-hardware" revision="rk3188" />
