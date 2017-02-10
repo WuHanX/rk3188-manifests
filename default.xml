@@ -15,6 +15,7 @@
   <project path="kernel" name="walle-kernel-rk3188" revision="rk3188" />
   <project path="tools" name="walle-tools" revision="rk3188">
     <copyfile src="Makfile.base" dest="Makefile" />
+    <copyfile src="README.md" dest="README.md" />
   </project>
 
 </manifest>
