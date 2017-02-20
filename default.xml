@@ -11,8 +11,8 @@
   <project path="hardware" name="walle-hardware" revision="rk3188" />
   <project path="firmware/ubuntu-base" name="walle-firmware-ubuntu-base" revision="rk3188" />
   <project path="firmware/lubuntu-core" name="walle-firmware-lubuntu-core" revision="rk3188" />
-  <project path="demo" name="walle-demo" revision="rk3188" />
-  <project path="kernel" name="walle-kernel-rk3188" revision="rk3188" />
+  <project path="demo" name="walle-demo" revision="master" />
+  <project path="kernel" name="walle-kernel-rk3188" revision="master" />
   <project path="tools" name="walle-tools" revision="rk3188">
     <copyfile src="Makfile.base" dest="Makefile" />
     <copyfile src="README.md" dest="README.md" />
